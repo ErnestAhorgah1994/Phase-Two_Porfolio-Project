@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(134, 134, 151);
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body .main-container{
+    width: 1440px;
+    height: 2088px;
+    border:5px solid;
+    margin: 10px auto 0px auto;
+    background-color: #EFFAFA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-container .top-design{
+    width: 1440px;
+    height: 156px;
+    border: 5px solid;
+    background-image: url(/images/bg-header-desktop.svg);
+    background-color: #5CA5A5;
+    margin-bottom: 76px;
+}
+.main-container .first-job-listing{
+    width: 1110px;
+    height: 152px;
+    border: 2px solid;
+    margin-bottom: 24px;
+    left:165px;
+    position: relative;
+    display: inline-block;
+}
+
+/* first div left border */
+.first-job-listing .first-job-listing-left-border-design{
+    width:5px;
+    height: 152px;
+    background-color:#5CA5A5;
+    display: inline-block;
+}
+.first-job-listing .first-job-listing-logo{
+    width: 88px;
+    height: 88px;
+    border: 5px solid;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    bottom: 32px;
+}
+
+
